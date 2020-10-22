@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище EmployeeTestingModelContainer" CdmEntityContainer="EmployeeTestingEntities">
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="EmployeeTestingModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="ID_Employee" ColumnName="ID_Employee" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Middlename" ColumnName="Middlename" />
+          <ScalarProperty Name="ID_Position" ColumnName="ID_Position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Position">
+      <EntityTypeMapping TypeName="EmployeeTestingModel.Position">
+        <MappingFragment StoreEntitySet="Position">
+          <ScalarProperty Name="ID_Position" ColumnName="ID_Position" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Test">
+      <EntityTypeMapping TypeName="EmployeeTestingModel.Test">
+        <MappingFragment StoreEntitySet="Test">
+          <ScalarProperty Name="Passing_Points" ColumnName="Passing_Points" />
+          <ScalarProperty Name="ID_Test" ColumnName="ID_Test" />
+          <ScalarProperty Name="Test_Title" ColumnName="Test_Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Test_Question">
+      <EntityTypeMapping TypeName="EmployeeTestingModel.Test_Question">
+        <MappingFragment StoreEntitySet="Test_Question">
+          <ScalarProperty Name="ID_Test_Question" ColumnName="ID_Test_Question" />
+          <ScalarProperty Name="ID_Test" ColumnName="ID_Test" />
+          <ScalarProperty Name="Question" ColumnName="Question" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="Points" ColumnName="Points" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Test_Result">
+      <EntityTypeMapping TypeName="EmployeeTestingModel.Test_Result">
+        <MappingFragment StoreEntitySet="Test_Result">
+          <ScalarProperty Name="ID_Test_Result" ColumnName="ID_Test_Result" />
+          <ScalarProperty Name="ID_Employee" ColumnName="ID_Employee" />
+          <ScalarProperty Name="ID_Test" ColumnName="ID_Test" />
+          <ScalarProperty Name="Points" ColumnName="Points" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,65 @@
+F:\Desktop\EmployeeTesting\EmployeeTesting\bin\Debug\EmployeeTesting.exe.config
+F:\Desktop\EmployeeTesting\EmployeeTesting\bin\Debug\EmployeeTesting.exe
+F:\Desktop\EmployeeTesting\EmployeeTesting\bin\Debug\EmployeeTesting.pdb
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\MainWindow.g.cs
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\App.g.cs
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting_MarkupCompile.cache
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting_MarkupCompile.lref
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\MainWindow.baml
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.g.resources
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.Properties.Resources.resources
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.csproj.GenerateResource.cache
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.csproj.CoreCompileInputs.cache
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.exe
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.pdb
+F:\Desktop\EmployeeTesting\EmployeeTesting\bin\Debug\EntityFramework.dll
+F:\Desktop\EmployeeTesting\EmployeeTesting\bin\Debug\EntityFramework.SqlServer.dll
+F:\Desktop\EmployeeTesting\EmployeeTesting\bin\Debug\EntityFramework.xml
+F:\Desktop\EmployeeTesting\EmployeeTesting\bin\Debug\EntityFramework.SqlServer.xml
+F:\Desktop\EmployeeTesting\EmployeeTesting\bin\Debug\ru\EntityFramework.resources.dll
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\EmployeeView\EmployeePage.g.cs
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting_Content.g.cs
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\App.baml
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\EmployeeView\EmployeePage.baml
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.csproj.CopyComplete
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\EmployeeView\EmployeeAddEdit.g.cs
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\EmployeeView\EmployeeAddEdit.baml
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\TestView\TestPage.g.cs
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\TestView\TestPage.baml
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\TestView\TestAddEdit.g.cs
+F:\Desktop\EmployeeTesting\EmployeeTesting\obj\Debug\View\TestView\TestAddEdit.baml
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\bin\Debug\EmployeeTesting.exe.config
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\bin\Debug\EmployeeTesting.exe
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\bin\Debug\EmployeeTesting.pdb
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\bin\Debug\EntityFramework.dll
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\bin\Debug\EntityFramework.SqlServer.dll
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\bin\Debug\EntityFramework.xml
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\bin\Debug\EntityFramework.SqlServer.xml
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\bin\Debug\ru\EntityFramework.resources.dll
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.csprojAssemblyReference.cache
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\EmployeeView\EmployeeAddEdit.g.cs
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\EmployeeView\EmployeePage.g.cs
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\MainWindow.g.cs
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\TestView\TestAddEdit.g.cs
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\TestView\TestPage.g.cs
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\App.g.cs
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting_Content.g.cs
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting_MarkupCompile.cache
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting_MarkupCompile.lref
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\App.baml
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\EmployeeView\EmployeeAddEdit.baml
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\EmployeeView\EmployeePage.baml
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\MainWindow.baml
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\TestView\TestAddEdit.baml
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\TestView\TestPage.baml
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.g.resources
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.Properties.Resources.resources
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.csproj.GenerateResource.cache
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.csproj.CoreCompileInputs.cache
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.csproj.CopyComplete
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.exe
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\EmployeeTesting.pdb
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\ResultView\ResultPage.g.cs
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\TestView\TestingPage.g.cs
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\ResultView\ResultPage.baml
+F:\ЯндексДиск\работяга\Четвёртый курс\Первый семак\Разное\WSR\Подготовка от ккрита\EmployeeTesting\EmployeeTesting\obj\Debug\View\TestView\TestingPage.baml

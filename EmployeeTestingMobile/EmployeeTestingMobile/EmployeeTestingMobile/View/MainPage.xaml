@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:View="clr-namespace:EmployeeTestingMobile.View" 
+             xmlns:View2="clr-namespace:EmployeeTestingMobile.View.TestView" 
+             xmlns:View3="clr-namespace:EmployeeTestingMobile.View.ResultView"
+             x:Class="EmployeeTestingMobile.MainPage" FlyoutBackgroundColor="#D1EEFC">
+    <Shell.FlyoutHeader>
+        <StackLayout BackgroundColor="#B5D5CA" Padding="10" Orientation="Horizontal">
+            <Image HeightRequest="100" Source="Resources/Drawable/logo.png" />
+            <Label VerticalTextAlignment="Center" FontSize="Title" Text="Тестирование сотрудников"/>
+        </StackLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Shell.BackgroundColor="#B5D5CA" Shell.TitleColor="#687b75" Shell.ForegroundColor="#687b75" Title="Сотрудники">
+        <Tab>
+            <ShellContent>
+                <View:EmployeePage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Shell.BackgroundColor="#B5D5CA" Shell.TitleColor="#687b75" Shell.ForegroundColor="#687b75" Title="Тесты">
+        <Tab>
+            <ShellContent>
+                <View2:TestPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Shell.BackgroundColor="#B5D5CA" Shell.TitleColor="#687b75" Shell.ForegroundColor="#687b75" Title="Результаты">
+        <Tab>
+            <ShellContent>
+                <View3:ResultPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+</Shell>

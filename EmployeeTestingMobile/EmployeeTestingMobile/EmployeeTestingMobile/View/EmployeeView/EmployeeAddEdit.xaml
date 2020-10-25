@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Сотрудник"
+             x:Class="EmployeeTestingMobile.View.EmployeeView.EmployeeAddEdit">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout Padding="10" Spacing="3">
+                <Label Text="Фамилия" />
+                <Entry Keyboard="Text" MaxLength="80" Text="{Binding Surname, Mode=TwoWay}" />
+                <Label Text="Имя" />
+                <Entry Keyboard="Text" MaxLength="80" Text="{Binding Name, Mode=TwoWay}"/>
+                <Label Text="Отчество" />
+                <Entry Keyboard="Text" MaxLength="80" Text="{Binding Middlename, Mode=TwoWay}"/>
+                <Label Text="Должность" />
+                <Picker x:Name="PositionPicker" Title="{Binding Position.Name}" TitleColor="Black" SelectedItem="{Binding Position}" 
+                        ItemDisplayBinding="{Binding Name}"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Button Text="Отмена" x:Name="CancelBtn" Clicked="CancelBtn_Clicked" HorizontalOptions="FillAndExpand"></Button>
+                    <Button Text="Сохранить" x:Name="SaveBtn" Clicked="SaveBtn_Clicked" HorizontalOptions="FillAndExpand"></Button>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

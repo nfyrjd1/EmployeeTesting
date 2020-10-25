@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Тесты"
+             x:Class="EmployeeTestingMobile.View.TestView.TestPage" Appearing="TestPage_Appearing">
+    <StackLayout>
+        <ListView x:Name="TestData" HasUnevenRows="True" SelectionMode="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="4,0,4,20">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label HorizontalOptions="Center" Grid.ColumnSpan="2" Text="{Binding Test_Title}" LineBreakMode="WordWrap" FontAttributes="Bold" />
+
+                            <Label HorizontalOptions="Center" FontSize="Subtitle" Text="Количество вопросов:" Grid.Row="1"/>
+                            <Label HorizontalOptions="Center" VerticalTextAlignment="Center" FontSize="Subtitle" Grid.Row="1" Grid.Column="1" Text="{Binding QuestionsCount}" />
+
+                            <Label HorizontalOptions="Center" FontSize="Subtitle" Margin="3,0,0,0" Text="Количество баллов для прохождения:" Grid.Row="2"/>
+                            <Label HorizontalOptions="Center" VerticalTextAlignment="Center" FontSize="Subtitle" Grid.Row="2" Grid.Column="1" Text="{Binding Passing_Points}" />
+
+                            <Label HorizontalOptions="Center" FontSize="Subtitle" Text="Максимальный балл:" Grid.Row="3"/>
+                            <Label HorizontalOptions="Center" VerticalTextAlignment="Center" FontSize="Subtitle" Grid.Row="3" Grid.Column="1" Text="{Binding MaxPoints}" />
+
+                            <Button Grid.Row="4" Text="Удалить" x:Name="DeleteBtn" Clicked="DeleteBtn_Clicked"/>
+                            <Button Grid.Row="4" Grid.Column="1" Text="Изменить" x:Name="EditBtn" Clicked="EditBtn_Clicked"/>
+                            <Button Grid.Row="5" Grid.ColumnSpan="2" Text="Тестирование" x:Name="TestBtn" Clicked="TestBtn_Clicked"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Добавить" x:Name="AddBtn" Clicked="AddBtn_Clicked" />
+    </StackLayout>
+</ContentPage>

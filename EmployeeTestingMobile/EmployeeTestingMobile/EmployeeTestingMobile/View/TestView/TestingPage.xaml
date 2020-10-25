@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Тестирование"
+             x:Class="EmployeeTestingMobile.View.TestView.TestingPage">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout Spacing="3" Padding="10">
+                <ListView x:Name="QuestionsData" ItemsSource="{Binding Questions}" HasUnevenRows="True">
+                    <ListView.Header>
+                        <StackLayout>
+                            <Label Text="{Binding Test_Title}" HorizontalOptions="Center" LineBreakMode="WordWrap"/>
+                            <Label Text="Сотрудник"/>
+                            <Picker x:Name="EmployeePicker" Title="{Binding Employee.FullName}" TitleColor="Black" SelectedItem="{Binding Employee}" 
+                            ItemDisplayBinding="{Binding FullName}"/>
+                        </StackLayout>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="0,20,0,20">
+                                    <Label Text="{Binding Question}" HorizontalOptions="Center"/>
+
+                                    <Label Text="Ваш ответ:"/>
+                                    <Editor Text="{Binding UserAnswer, Mode=TwoWay}" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                    <ListView.Footer>
+                        <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Text="Отмена" x:Name="CancelBtn" Clicked="CancelBtn_Clicked"  HorizontalOptions="FillAndExpand"></Button>
+                            <Button Text="Сохранить" x:Name="SaveBtn" Clicked="SaveBtn_Clicked"  HorizontalOptions="FillAndExpand"></Button>
+                        </StackLayout>
+                    </ListView.Footer>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

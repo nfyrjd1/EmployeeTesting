@@ -53,7 +53,8 @@ namespace EmployeeTesting.View.TestView
                 int TestErrors = _currentTestResult.SetPoints();
                 EmployeeTestingEntities.GetContext().Test_Result.Add(_currentTestResult);
                 EmployeeTestingEntities.GetContext().SaveChanges();
-                MessageBox.Show($"Вы набрали {_currentTestResult.Points} баллов. При этом вы совершили {TestErrors} ошибок.", 
+
+                MessageBox.Show($"Набрано баллов: {_currentTestResult.Points}. Количество ошибок: {TestErrors}.", 
                     "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
                 Manager.MainFrame.Navigate(new ResultPage());
             }

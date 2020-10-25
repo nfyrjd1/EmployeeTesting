@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Тест"
+             x:Class="EmployeeTestingMobile.View.TestView.TestAddEdit">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout Spacing="3" Padding="10">
+                <ListView x:Name="QuestionsData" ItemsSource="{Binding Questions}" HasUnevenRows="True">
+                    <ListView.Header>
+                        <StackLayout>
+                            <Label Text="Название теста"/>
+                            <Editor Text="{Binding Test_Title, Mode=TwoWay}" />
+
+                            <Label Text="Количество баллов для прохождения"/>
+                            <Entry Keyboard="Numeric" MaxLength="4" Text="{Binding Passing_Points, Mode=TwoWay}"/>
+
+                            <Button Margin="0,15,0,40" x:Name="AddQuestionBtn" Clicked="AddQuestionBtn_Clicked" Text="Добавить вопрос"/>
+                        </StackLayout>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="0,0,0,20">
+                                    <Label Text="Вопрос:"/>
+                                    <Editor Text="{Binding Question, Mode=TwoWay}" />
+
+                                    <Label Text="Количество баллов:"/>
+                                    <Entry MaxLength="4" Keyboard="Numeric" Text="{Binding Points, Mode=TwoWay}"/>
+
+                                    <Label Text="Ответ:"/>
+                                    <Editor Text="{Binding Answer, Mode=TwoWay}" />
+
+                                    <Button Text="Удалить вопрос" x:Name="DeleteQuestionBtn" Clicked="DeleteQuestionBtn_Clicked"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                    <ListView.Footer>
+                        <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Text="Отмена" x:Name="CancelBtn" Clicked="CancelBtn_Clicked" HorizontalOptions="FillAndExpand"></Button>
+                            <Button Text="Сохранить" x:Name="SaveBtn" Clicked="SaveBtn_Clicked" HorizontalOptions="FillAndExpand"></Button>
+                        </StackLayout>
+                    </ListView.Footer>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Результаты тестирования"
+             x:Class="EmployeeTestingMobile.View.ResultView.ResultPage" Appearing="ResultPage_Appearing">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="ResultData" HasUnevenRows="True" SelectionMode="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="4,0,4,20">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label HorizontalOptions="Center" VerticalTextAlignment="Center" FontAttributes="Bold" Grid.ColumnSpan="2" Text="{Binding Employee.FullName}" />
+                                
+                                <Label HorizontalOptions="Center" Grid.Row="1" FontSize="Subtitle" Text="Тест:"/>
+                                <Label HorizontalOptions="Center" VerticalTextAlignment="Center" FontSize="Subtitle" Grid.Row="1" Grid.Column="1" Text="{Binding Test.Test_Title}" LineBreakMode="WordWrap" />
+
+                                <Label HorizontalOptions="Center" FontSize="Subtitle" Margin="3,0,0,0" Text="Набрано баллов:" Grid.Row="2"/>
+                                <Label HorizontalOptions="Center" VerticalTextAlignment="Center" FontSize="Subtitle" Grid.Row="2" Grid.Column="1" Text="{Binding Points}" />
+
+                                <Label HorizontalOptions="Center" FontSize="Subtitle" Text="Результат:" Grid.Row="3"/>
+                                <Label HorizontalOptions="Center" VerticalTextAlignment="Center" FontSize="Subtitle" Grid.Row="3" Grid.Column="1" Text="{Binding Status}" />
+
+                                <Button Grid.Row="4" Grid.ColumnSpan="2" Text="Удалить" x:Name="DeleteBtn" Clicked="DeleteBtn_Clicked"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

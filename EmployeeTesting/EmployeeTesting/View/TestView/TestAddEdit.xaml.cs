@@ -35,6 +35,14 @@ namespace EmployeeTesting.View.TestView
                 Errors.AppendLine("Вы не указали название теста!");
             }
 
+            if (_currentTest.Passing_Points.HasValue)
+            {
+                if (_currentTest.Passing_Points.Value < 0)
+                {
+                    Errors.AppendLine("Количество баллов не может быть отрицательным!");
+                }
+            }
+
             if (_currentTest.Test_Question.Count == 0)
             {
                 Errors.AppendLine("Вы не добавили ни одного вопроса!");
@@ -50,9 +58,21 @@ namespace EmployeeTesting.View.TestView
                 Errors.AppendLine("Вы не указали ответ на один из вопросов!");
             }
 
+            foreach (Test_Question question in _currentTest.Test_Question)
+            {
+                if (question.Points.HasValue)
+                {
+                    if (question.Points.Value < 0)
+                    {
+                        Errors.AppendLine("Количество баллов не может быть отрицательным!");
+                    }
+                }
+            }
+
             if (Errors.Length > 0)
             {
                 MessageBox.Show(Errors.ToString(), "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
             }
 
             try

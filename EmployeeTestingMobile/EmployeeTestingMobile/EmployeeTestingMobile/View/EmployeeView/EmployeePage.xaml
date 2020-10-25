@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Сотрудники"
+             x:Class="EmployeeTestingMobile.View.EmployeePage" Appearing="EmployeePage_Appearing">
+    <StackLayout>
+        <ListView x:Name="EmployeeData" HasUnevenRows="True" SelectionMode="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="4,0,4,20">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label HorizontalOptions="Center" Grid.ColumnSpan="2" Text="{Binding FullName}" FontAttributes="Bold" />
+
+                            <Label HorizontalOptions="CenterAndExpand" FontSize="Subtitle" Text="Должность:" Grid.Row="1"/>
+                            <Label HorizontalOptions="CenterAndExpand" FontSize="Subtitle" Grid.Row="1" Grid.Column="1" Text="{Binding Position.Name}" />
+
+                            <Button Grid.Row="2" Text="Удалить" x:Name="DeleteBtn" Clicked="DeleteBtn_Clicked"/>
+                            <Button Grid.Row="2" Grid.Column="1" Text="Изменить" x:Name="EditBtn" Clicked="EditBtn_Clicked"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Добавить" x:Name="AddBtn" Clicked="AddBtn_Clicked" />
+    </StackLayout>
+
+</ContentPage>

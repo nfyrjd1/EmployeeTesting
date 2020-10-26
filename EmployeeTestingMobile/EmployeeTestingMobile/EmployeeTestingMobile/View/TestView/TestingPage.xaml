@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <ScrollView Orientation="Vertical">
             <StackLayout Spacing="3" Padding="10">
-                <ListView x:Name="QuestionsData" ItemsSource="{Binding Questions}" HasUnevenRows="True">
+                <ListView x:Name="QuestionsData" ItemsSource="{Binding Questions}" SelectionMode="None" HasUnevenRows="True">
                     <ListView.Header>
                         <StackLayout>
                             <Label Text="{Binding Test_Title}" HorizontalOptions="Center" LineBreakMode="WordWrap"/>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e+vAoMS4AvFDZAHBUe7+fnDziFgVTVmhV1dVavkYT5tVaoNgODKv2707VvXN+jtMchIB5zOFcOOyLz9pbzYE2g==",
+  "dgSpecHash": "sNs63zBj921c60JJ4wpUEFg+pG0KR9GbAekXR0JDeKRIBLrK+kgcaAZ+GtV4a6Fusq7oXClAWb9k9NxG5mVS1Q==",
   "success": true,
-  "projectFilePath": "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.Android\\EmployeeTestingMobile.Android.csproj",
+  "projectFilePath": "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.Android\\EmployeeTestingMobile.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Алексей\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",

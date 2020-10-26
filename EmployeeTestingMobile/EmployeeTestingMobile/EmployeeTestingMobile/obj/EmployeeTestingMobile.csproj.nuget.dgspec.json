@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj": {}
+    "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj": {}
   },
   "projects": {
-    "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj": {
+    "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj",
+        "projectUniqueName": "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj",
         "projectName": "EmployeeTestingMobile",
-        "projectPath": "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj",
+        "projectPath": "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj",
         "packagesPath": "C:\\Users\\Алексей\\.nuget\\packages\\",
-        "outputPath": "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\obj\\",
+        "outputPath": "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

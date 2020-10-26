@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j+hQbyEzKMMRR9/7arXYoubKEU+sH6TvSMxxfaWUw0OhJQWCG+NEgbmrseNOp9Tr71t1bv/9qfGUjrQFa45vKQ==",
+  "dgSpecHash": "kAmNH+XcSZ7voPEgDwZK7l+3gDe1q66WFBg77VkDrXQ5AIVtVh1JNRmhwgbGftTUJPkAUDHBHhq9BcdOcZnvfg==",
   "success": true,
-  "projectFilePath": "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj",
+  "projectFilePath": "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Алексей\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

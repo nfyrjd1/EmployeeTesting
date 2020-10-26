@@ -120,6 +120,8 @@ namespace EmployeeTesting.View.TestView
                         return;
                     }
                     _currentTest.Test_Question.Remove(DeleteItem);
+                    if (_currentTest.ID_Test != 0)
+                        EmployeeTestingEntities.GetContext().Test_Question.Remove(DeleteItem);
                     QuestionsData.Items.Refresh();
                 }
                 catch (Exception ex)

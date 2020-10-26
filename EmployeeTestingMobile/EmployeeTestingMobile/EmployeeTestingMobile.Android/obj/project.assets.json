@@ -2170,11 +2170,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.Android\\EmployeeTestingMobile.Android.csproj",
+      "projectUniqueName": "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.Android\\EmployeeTestingMobile.Android.csproj",
       "projectName": "EmployeeTestingMobile.Android",
-      "projectPath": "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.Android\\EmployeeTestingMobile.Android.csproj",
+      "projectPath": "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.Android\\EmployeeTestingMobile.Android.csproj",
       "packagesPath": "C:\\Users\\Алексей\\.nuget\\packages\\",
-      "outputPath": "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.Android\\obj\\",
+      "outputPath": "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2195,8 +2195,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj": {
-              "projectPath": "F:\\Desktop\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj"
+            "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj": {
+              "projectPath": "F:\\ЯндексДиск\\работяга\\Четвёртый курс\\Первый семак\\Разное\\WSR\\Подготовка от ккрита\\Тестирование сотрудников\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile\\EmployeeTestingMobile.csproj"
             }
           }
         }
